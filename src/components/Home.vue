@@ -23,7 +23,7 @@
     <swiper :list="demo01_list" v-model="demo01_index" @on-index-change="demo01_onIndexChange"></swiper>
   </div>
 
- <cell title="热门产品" value="" is-link link="/loan"></cell>
+ <cell title="热门产品" is-link link="/loan" ></cell>
 
  <div >
   <flexbox style="border-top: 1px solid #f2f2f2;">
@@ -197,7 +197,6 @@ export default {
 </script>
 
 <style scoped lang="less">
-@tabbar-text-active-color:#e0250c;
 .filterboxicon {
   padding-left: 10px;
   padding-top:5px;
