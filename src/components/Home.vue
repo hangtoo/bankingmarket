@@ -53,6 +53,9 @@
      </flexbox-item>
   </flexbox>
 
+
+
+
   <flexbox >
      <flexbox-item :span="1/4" class="filterboxicon" style="border-right: 1px solid #ddd;">
        <div  style="text-align:center"><img class="hotprodimg" slot="icon" src="https://image.freedk.com/pic/image/8a9b090e5f4c6a77015fa366a0f5003b.png"></div>
@@ -81,14 +84,95 @@
   </flexbox>
 
 
+    <flexbox >
+       <flexbox-item :span="1/4" class="filterboxicon" style="border-right: 1px solid #ddd;">
+         <div  style="text-align:center"><img class="hotprodimg" slot="icon" src="https://image.freedk.com/pic/image/8a9b090e5f4c6a77015fa366a0f5003b.png"></div>
+         <div style="text-align:center">点点金现金</div>
+
+       </flexbox-item>
+       <flexbox-item :span="3/4" class="filterboxicon" >
+         <div style="margin-top:-15px;">额度：<span style="color:red">1000~50000</span>
+         </div>
+         <div style="padding-top:5px;">参考费率：0.075%（月）
+         </div>
+         <div style="padding-top:5px;">
+           <div style="float:left;">
+           期限：1~6月&nbsp;&nbsp;
+         </div>
+           <div style="float:left;border: 1px solid red; border-radius: 5px; width: 80px; color: red;line-height: 24px;text-align: center;">
+            &nbsp;立即申请&nbsp;
+          </div>
+         </div>
+       </flexbox-item>
+     </flexbox>
+     <flexbox >
+       <flexbox-item class="filterboxicon" style="background: #f2f2f2;">
+         <div style="text-align:center">银行放款，高额低息，快速安全</div>
+       </flexbox-item>
+    </flexbox>
+
+    <flexbox >
+       <flexbox-item :span="1/4" class="filterboxicon" style="border-right: 1px solid #ddd;">
+         <div  style="text-align:center"><img class="hotprodimg" slot="icon" src="https://image.freedk.com/pic/image/8a9b090e5f4c6a77015fa366a0f5003b.png"></div>
+         <div style="text-align:center">点点金现金</div>
+
+       </flexbox-item>
+       <flexbox-item :span="3/4" class="filterboxicon" >
+         <div style="margin-top:-15px;">额度：<span style="color:red">1000~50000</span>
+         </div>
+         <div style="padding-top:5px;">参考费率：0.075%（月）
+         </div>
+         <div style="padding-top:5px;">
+           <div style="float:left;">
+           期限：1~6月&nbsp;&nbsp;
+         </div>
+           <div style="float:left;border: 1px solid red; border-radius: 5px; width: 80px; color: red;line-height: 24px;text-align: center;">
+            &nbsp;立即申请&nbsp;
+          </div>
+         </div>
+       </flexbox-item>
+     </flexbox>
+     <flexbox >
+       <flexbox-item class="filterboxicon" style="background: #f2f2f2;">
+         <div style="text-align:center">银行放款，高额低息，快速安全</div>
+       </flexbox-item>
+    </flexbox>
+    
+    <flexbox >
+       <flexbox-item :span="1/4" class="filterboxicon" style="border-right: 1px solid #ddd;">
+         <div  style="text-align:center"><img class="hotprodimg" slot="icon" src="https://image.freedk.com/pic/image/8a9b090e5f4c6a77015fa366a0f5003b.png"></div>
+         <div style="text-align:center">点点金现金</div>
+
+       </flexbox-item>
+       <flexbox-item :span="3/4" class="filterboxicon" >
+         <div style="margin-top:-15px;">额度：<span style="color:red">1000~50000</span>
+         </div>
+         <div style="padding-top:5px;">参考费率：0.075%（月）
+         </div>
+         <div style="padding-top:5px;">
+           <div style="float:left;">
+           期限：1~6月&nbsp;&nbsp;
+         </div>
+           <div style="float:left;border: 1px solid red; border-radius: 5px; width: 80px; color: red;line-height: 24px;text-align: center;">
+            &nbsp;立即申请&nbsp;
+          </div>
+         </div>
+       </flexbox-item>
+     </flexbox>
+     <flexbox >
+       <flexbox-item class="filterboxicon" style="background: #f2f2f2;">
+         <div style="text-align:center">银行放款，高额低息，快速安全</div>
+       </flexbox-item>
+    </flexbox>
+
+
  </div>
 
 
-<divider>我是有底线的</divider>
 
 
 
-  <tabbar>
+  <tabbar style="position:fixed">
     <tabbar-item selected link="/home">
       <img slot="icon" src="../assets/home/sy-d.png">
       <span slot="label">首页</span>
